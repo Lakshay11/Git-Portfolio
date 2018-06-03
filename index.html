@@ -7,37 +7,89 @@
   <title>Portfolio</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
   <!-- Place favicon.ico in the root directory -->
-
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/materialize.css">
+  <link rel="stylesheet" href="css/custom.css">
 </head>
 
 <body>
   <!-- Add site content here -->
-  <div class="container">
+  <section class="top-navigation">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">Logo</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="sass.html">Home</a></li>
+          <li><a href="badges.html">Blog</a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <section class="body-content">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m3 l3 left-sidebar-layout" id="left-sidebar">
+          <div class="left-sidebar-image center">
+            <img src="img/smiley.jpg" />
+          </div>
+          <div class="left-sidebar-content center">
+            <h3>Name</h3>
+            <h4>sub head</h4>
+            <div class="left-sidebar-social">
+              <ul>
+                <li>
+                  <a href="#">
+              <i class="fa fa-github"></i></a></li>
+              <li>
+                <a href="#">
+              <i class="fa fa-facebook"></i></a></li>
+              <li>
+                <a href="#">
+              <i class="fa fa-instagram"></i></a></li>
+            </ul>
+            </div>
+            <aside class="left-sidebar-resume center">
+              <br />
+              <br />
+              <a href="#">Download CV</a>
+              <br />
+              <br />
+            </aside>
+          </div>
+        </div>
+        <div class="col s12 m8 l8">
 
-  </div>
+        </div>
+        <div class="col s12 m1 l1">
 
-
-
-
-
+        </div>
+      </div>
+    </div>
+  </section>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+  </script>
   <script src="js/plugins.js"></script>
   <script src="js/materialize.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    window.ga = function() {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <script src="js/custom.js"></script>
 </body>
 
 </html>
