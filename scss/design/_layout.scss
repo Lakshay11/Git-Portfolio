@@ -1,9 +1,6 @@
-.sticky {
-  position: fixed;
-  top: 0;
-  width: auto;
+.altered-width{
+  width: 83% !important;
 }
-
 .body-content {
   margin-top: 40px;
 
@@ -11,6 +8,9 @@
     width: 100%;
     background-color: #c0e3e7;
     height: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
   }
 
   .left-sidebar-image {
@@ -25,10 +25,12 @@
 
   .left-sidebar-social {
     padding-bottom: 20px;
-    li{
+
+    li {
       display: inline;
       margin: 5px 12px;
-      a{
+
+      a {
         color: unset;
       }
     }
@@ -50,12 +52,15 @@
       margin-bottom: 30px;
     }
   }
-  .left-sidebar-content{
-    h3{
+
+  .left-sidebar-content {
+    h3 {
       font-size: 1.625em;
     }
-    h4{
+
+    h4 {
       font-size: 1.143em;
-    font-weight: 100; }
+      font-weight: 100;
+    }
   }
 }

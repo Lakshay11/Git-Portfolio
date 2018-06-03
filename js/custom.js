@@ -1,14 +1,24 @@
-// sticky position on scroll
+// tabs right side
+$(".scroll-to1").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#test1").offset().top
+    }, 2000);
+});
 
-window.onscroll = function() {myFunction()};
+$(".scroll-to2").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#test2").offset().top
+    }, 2000);
+});
 
-var navbar = document.getElementById("left-sidebar");
-var sticky = navbar.offsetTop;
+$(".scroll-to3").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#test3").offset().top
+    }, 2000);
+});
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
+$(".scroll-to4").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#test4").offset().top
+    }, 2000);
+});

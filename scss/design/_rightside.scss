@@ -1,0 +1,33 @@
+.right-side-navigation {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+  .auto-height {
+    height: auto !important;
+
+    a {
+      padding: 0 !important;
+    }
+  }
+
+  ul {
+    li {
+      display: block !important;
+      border-bottom: 1px solid transparent !important;
+      a{
+        color: unset;
+        i{
+          font-size: 20px;
+          padding: 20px 11px;
+        }
+      }
+      img{
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        background-image: url('img');
+      }
+    }
+  }
+}
