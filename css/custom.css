@@ -79,8 +79,7 @@ body {
   border: 1px solid #e1e1e1; }
   .center-content .about-me-section h2 {
     padding: 0;
-    margin: 0;
-    margin-bottom: 50px;
+    margin: 0 0 50px;
     font-size: 30px; }
   .center-content .about-me-section p {
     margin: 0 0 22px;
@@ -100,15 +99,42 @@ body {
   background-color: #fff;
   border: 1px solid #e1e1e1;
   margin-top: 40px; }
+  .center-content .portfolio-section h2 {
+    padding: 0;
+    margin: 0 0 50px;
+    font-size: 30px; }
+  .center-content .portfolio-section p {
+    margin: 0 0 22px;
+    line-height: 1.875em;
+    font-size: 16px;
+    font-weight: normal; }
 .center-content .education-section {
   padding: 40px 20px;
   background-color: #fff;
   border: 1px solid #e1e1e1;
   margin-top: 40px; }
+  .center-content .education-section h2 {
+    padding: 0;
+    margin: 0 0 50px;
+    font-size: 30px; }
+  .center-content .education-section p {
+    margin: 0 0 22px;
+    line-height: 1.875em;
+    font-size: 16px;
+    font-weight: normal; }
 .center-content .project-section {
   padding: 40px 20px;
   background-color: #fff;
   border: 1px solid #e1e1e1;
   margin-top: 40px; }
+  .center-content .project-section h2 {
+    padding: 0;
+    margin: 0 0 50px;
+    font-size: 30px; }
+  .center-content .project-section p {
+    margin: 0 0 22px;
+    line-height: 1.875em;
+    font-size: 16px;
+    font-weight: normal; }
 
 /*# sourceMappingURL=custom.css.map */

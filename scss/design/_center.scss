@@ -1,47 +1,92 @@
-.center-content{
-  .about-me-section{
+.center-content {
+  .about-me-section {
     padding: 40px 20px;
     background-color: #fff;
     border: 1px solid #e1e1e1;
-    h2{
+
+    h2 {
       padding: 0;
-      margin: 0;
-      margin-bottom: 50px;
+      margin: 0 0 50px;
       font-size: 30px;
     }
-    p{
+
+    p {
       margin: 0 0 22px;
       line-height: 1.875em;
       font-size: 16px;
       font-weight: normal;
     }
-    a{
+
+    a {
       color: black;
       font-size: 18px;
       padding: 8px 45px;
       border-radius: 20px;
       border: 1px solid #c0e3e7;
-      i{
+
+      i {
         padding-right: 10px;
       }
     }
   }
-  .portfolio-section{
-    padding: 40px 20px;
-    background-color: #fff;
-    border: 1px solid #e1e1e1;
-    margin-top: 40px;
-  }
-  .education-section{
-    padding: 40px 20px;
-    background-color: #fff;
-    border: 1px solid #e1e1e1;
-    margin-top: 40px;}
 
-  .project-section{
+  .portfolio-section {
     padding: 40px 20px;
     background-color: #fff;
     border: 1px solid #e1e1e1;
     margin-top: 40px;
+
+    h2 {
+      padding: 0;
+      margin: 0 0 50px;
+      font-size: 30px;
+    }
+
+    p {
+      margin: 0 0 22px;
+      line-height: 1.875em;
+      font-size: 16px;
+      font-weight: normal;
+    }
+  }
+
+  .education-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    margin-top: 40px;
+
+    h2 {
+      padding: 0;
+      margin: 0 0 50px;
+      font-size: 30px;
+    }
+
+    p {
+      margin: 0 0 22px;
+      line-height: 1.875em;
+      font-size: 16px;
+      font-weight: normal;
+    }
+  }
+
+  .project-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    margin-top: 40px;
+
+    h2 {
+      padding: 0;
+      margin: 0 0 50px;
+      font-size: 30px;
+    }
+
+    p {
+      margin: 0 0 22px;
+      line-height: 1.875em;
+      font-size: 16px;
+      font-weight: normal;
+    }
   }
 }
