@@ -2,23 +2,23 @@
 $(".scroll-to1").click(function() {
     $('html, body').animate({
         scrollTop: $("#about").offset().top
-    }, 2000);
+    }, 1000);
 });
 
 $(".scroll-to2").click(function() {
     $('html, body').animate({
-        scrollTop: $("#test2").offset().top
-    }, 2000);
+        scrollTop: $("#portfolio").offset().top
+    }, 1000);
 });
 
 $(".scroll-to3").click(function() {
     $('html, body').animate({
-        scrollTop: $("#test3").offset().top
-    }, 2000);
+        scrollTop: $("#education").offset().top
+    }, 1000);
 });
 
 $(".scroll-to4").click(function() {
     $('html, body').animate({
-        scrollTop: $("#test4").offset().top
-    }, 2000);
+        scrollTop: $("#project").offset().top
+    }, 1000);
 });

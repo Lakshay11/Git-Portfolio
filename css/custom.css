@@ -95,5 +95,20 @@ body {
     border: 1px solid #c0e3e7; }
     .center-content .about-me-section a i {
       padding-right: 10px; }
+.center-content .portfolio-section {
+  padding: 40px 20px;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  margin-top: 40px; }
+.center-content .education-section {
+  padding: 40px 20px;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  margin-top: 40px; }
+.center-content .project-section {
+  padding: 40px 20px;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  margin-top: 40px; }
 
 /*# sourceMappingURL=custom.css.map */
