@@ -73,4 +73,27 @@ body {
     font-size: 1.143em;
     font-weight: 100; }
 
+.center-content .about-me-section {
+  padding: 40px 20px;
+  background-color: #fff;
+  border: 1px solid #e1e1e1; }
+  .center-content .about-me-section h2 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 30px; }
+  .center-content .about-me-section p {
+    margin: 0 0 22px;
+    line-height: 1.875em;
+    font-size: 16px;
+    font-weight: normal; }
+  .center-content .about-me-section a {
+    color: black;
+    font-size: 18px;
+    padding: 8px 45px;
+    border-radius: 20px;
+    border: 1px solid #c0e3e7; }
+    .center-content .about-me-section a i {
+      padding-right: 10px; }
+
 /*# sourceMappingURL=custom.css.map */

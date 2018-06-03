@@ -1,7 +1,7 @@
 // tabs right side
 $(".scroll-to1").click(function() {
     $('html, body').animate({
-        scrollTop: $("#test1").offset().top
+        scrollTop: $("#about").offset().top
     }, 2000);
 });
 
