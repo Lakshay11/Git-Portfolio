@@ -26,6 +26,9 @@ body {
       height: 42px;
       border-radius: 50%; }
 
+.score {
+  float: right; }
+
 @media only screen and (max-width: 600px) {
   .left-sidebar-layout, .right-side-navigation {
     position: relative !important; } }
@@ -159,6 +162,51 @@ body {
 
 .Progress-Details-Edu h6 {
   margin-top: 10px; }
+
+.styled-list {
+  font-weight: 700;
+  line-height: 1.1em;
+  padding-left: 2.7em; }
+  .styled-list li {
+    margin-bottom: 1.16em; }
+  .styled-list .material-icons {
+    position: relative;
+    top: 7px; }
+
+.dl-horizontal dt {
+  float: left;
+  width: 100px;
+  overflow: hidden;
+  clear: left;
+  font-weight: 700; }
+
+.dl-horizontal dd {
+  margin-left: 112px; }
+
+dd {
+  margin: 0 0 .563em; }
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #c0e3e7;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: .31em; }
+
+.blank.dot {
+  border: 1px solid;
+  border-color: #c0e3e7;
+  background-color: white; }
+
+.progress-title {
+  font-size: .85em;
+  line-height: 1.2em;
+  display: block;
+  margin-bottom: .7em; }
+
+.lang {
+  margin-bottom: 1.375em; }
 
 .Timeline-Wrapper {
   /* Timeline */
