@@ -11,24 +11,65 @@
   <link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/materialize.css">
   <link rel="stylesheet" href="css/custom.css">
 </head>
 
 <body>
   <!-- Add site content here -->
+   <div class="fullcontainer">
+
   <section class="top-navigation">
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo center">Logo</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html">Home</a></li>
-          <li><a href="badges.html">Blog</a></li>
+  <ul id="slide-out" class="sidenav">
+      <li><a class="sidenav-close" href="#!">Clicking this will close Sidenav</a></li>
+      <li>  <div class="col s12 m3 l3 left-sidebar-layout" id="left-sidebar">
+          <div class="left-sidebar-image center">
+            <img src="img/smiley.jpg" />
+          </div>
+          <div class="left-sidebar-content center">
+            <h3>Name</h3>
+            <h4>sub head</h4>
+            <div class="left-sidebar-social">
+              <span>
+                  <a href="#">
+              <i class="fa fa-github"></i></a>
+                </span>
+                <span>
+                  <a href="#">
+              <i class="fa fa-facebook"></i></a></span>
+               <span>
+                  <a href="#">
+              <i class="fa fa-instagram"></i></a> </span>
+              <!-- </ul> -->
+            </div>
+
+          </div>
+        </div></li>
+      <li><a href="#!">Second Sidebar Link</a></li>
+      <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header">Dropdown<i class="small  material-icons">arrow_drop_down</i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="#!">First</a></li>
+                <li><a href="#!">Second</a></li>
+                <li><a href="#!">Third</a></li>
+                <li><a href="#!">Fourth</a></li>
+              </ul>
+            </div>
+          </li>
         </ul>
-      </div>
-    </nav>
+      </li>
+    </ul>
+
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="small material-icons">menu</i></a>
   </section>
+   <!-- Page Content goes here -->
+      </div>
+
+
   <section class="body-content">
     <div class="container altered-width">
       <div class="row">
