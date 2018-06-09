@@ -25,6 +25,9 @@ body {
       height: 42px;
       border-radius: 50%; }
 
+.score {
+  float: right; }
+
 @media only screen and (max-width: 600px) {
   .left-sidebar-layout, .right-side-navigation {
     position: relative !important; } }
