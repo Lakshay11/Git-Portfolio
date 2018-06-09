@@ -1,9 +1,23 @@
 .top-navigation{
-  nav{
+  nav {
     background-color: inherit;
     box-shadow: none;
   }
-  a{
+  a {
     color: black;
   }
+  .material-icons {
+    background: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px 8px;
+    float: right;
+
+  }
+}
+
+.fullcontainer {
+  height: 55px;
+  padding: 15px;
+
 }
