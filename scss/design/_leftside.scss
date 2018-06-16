@@ -66,3 +66,22 @@
   display: inline;
   margin: 5px 12px;
 }
+
+.left-sidebar-image.left-sidebar-image-sidenav{
+  margin-top: 0px;
+ 
+}
+.sidenav-close{
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -9999px;
+    background-color: #c0e3e7;
+}
+
+.sidenav-close::before {
+    font-family: FontAwesome;
+    content: "\f00d";
+    font-size: 24px;
+     float: right;
+        text-indent: 0;
+}
