@@ -23,6 +23,12 @@ $(".scroll-to4").click(function () {
   }, 1000);
 });
 
+$(".scroll-to5").click(function () {
+  $('html, body').animate({
+    scrollTop: $("#skills").offset().top
+  }, 1000);
+});
+
 // Side navigation menu
 $('.sidenav').sidenav();
 instance.open();

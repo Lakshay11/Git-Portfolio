@@ -207,4 +207,16 @@ dd {
 .lang {
   margin-bottom: 1.375em; }
 
+#skills .skills-content {
+  text-align: center; }
+  #skills .skills-content .top-spacing {
+    margin-top: 20px; }
+  #skills .skills-content h2 {
+    text-align: left;
+    display: block;
+    clear: both;
+    margin: 20px 0 10px 0; }
+  #skills .skills-content img {
+    max-height: 100px; }
+
 /*# sourceMappingURL=custom.css.map */
