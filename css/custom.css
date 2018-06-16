@@ -219,4 +219,10 @@ dd {
   #skills .skills-content img {
     max-height: 100px; }
 
+#contact .extra-space {
+  font-size: 20px;
+  background-color: #e2e2e2;
+  color: black;
+  border-radius: 50%; }
+
 /*# sourceMappingURL=custom.css.map */

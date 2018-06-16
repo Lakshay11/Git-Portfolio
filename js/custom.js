@@ -29,6 +29,12 @@ $(".scroll-to5").click(function () {
   }, 1000);
 });
 
+$(".scroll-to6").click(function () {
+  $('html, body').animate({
+    scrollTop: $("#contact").offset().top
+  }, 1000);
+});
+
 // Side navigation menu
 $('.sidenav').sidenav();
 instance.open();
