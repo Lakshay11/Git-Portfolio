@@ -22,19 +22,19 @@ $(".scroll-to4").click(function () {
     scrollTop: $("#project").offset().top
   }, 1000);
 });
-$('.sidenav').sidenav();
 
+// Side navigation menu
+$('.sidenav').sidenav();
 instance.open();
 instance.close();
 instance.destroy();
-$('.sidenav').sidenav();
-$('.sidenav').sideNav({
-    menuWidth: 300,
-    // / closeOnClick: true,
-    edge: 'right', // <--- CHECK THIS OUT
-  }
-);
-$('.collapsible').collapsible();
+// $('.sidenav').sidenav();
+// $('.sidenav').sideNav({
+//     menuWidth: 300,
+//     edge: 'right', // <--- CHECK THIS OUT
+//   }
+// );
+// $('.collapsible').collapsible();
 
 document.addEventListener('DOMContentLoaded', function () {
   var elems = document.querySelectorAll('.sidenav');
