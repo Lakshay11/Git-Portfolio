@@ -18,8 +18,10 @@ body {
     .right-side-navigation ul li a {
       color: unset; }
       .right-side-navigation ul li a i {
-        font-size: 1.25em;
+        font-size: 1.45em;
         padding: 20px 11px; }
+      .right-side-navigation ul li a:hover {
+        font-size: 1.55em; }
     .right-side-navigation ul li img {
       width: 42px;
       height: 42px;
