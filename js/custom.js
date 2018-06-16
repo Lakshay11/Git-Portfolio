@@ -35,6 +35,33 @@ $(".scroll-to6").click(function () {
   }, 1000);
 });
 
+// Parallax effect Initialize
+$(document).ready(function(){
+  $('.parallax').parallax();
+});
+
+// TypeWriter effect
+var tl = new TimelineMax({
+  paused:true
+});
+// letter animation
+tl.fromTo(".anim-typewriter", 4, {
+  width: "0",
+}, {
+  width: "20.18em", /* same as CSS .line-1 width */
+  ease:  SteppedEase.config(25)
+}, 0);
+// text cursor animation
+tl.fromTo(".anim-typewriter", 0.5, {
+  "border-right-color": "rgba(255,255,255,0.75)"
+}, {
+  "border-right-color": "rgba(255,255,255,0)",
+  repeat: -1,
+  ease:  SteppedEase.config(2)
+}, 0);
+
+tl.play();
+
 // Side navigation menu
 $('.sidenav').sidenav();
 instance.open();
@@ -58,8 +85,6 @@ document.addEventListener('DOMContentLoaded', function () {
 // var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
 
 // Or with jQuery
-
-
 
 /* Check the location of each element */
 $('.content').each( function(i){
