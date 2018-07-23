@@ -5,6 +5,16 @@
 body {
   background-color: #f3f3f3;
 }
+.has-background-image{
+  background-image: url('../img/cuo.jpg');
+  width: 100%;
+  position: fixed;
+  background-size: contain;
+  min-height: 1200px;
+  top: 0px;
+  z-index: -10;
+  opacity: 0.8;
+}
 // parallax
 .parallax-container {
   height: 1000px;
